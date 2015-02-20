@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Welcome to Django{% endblock %}
+{% block head %}Welcome to Django{% endblock %}
+{% block content %}
+    <p>The update was successful!</p> 
+  <p> Your new username is: {{ user.username }}</p>
+   <a href="/logout/">Logout</a>
+  <a href="/update">Update Profile</a>
+  
+{% endblock %}
